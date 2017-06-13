@@ -31,8 +31,21 @@ The main characteristics of the 18 regression data sets included in this folder 
 | cpuSm      | 8192 | 13    | 0     | 13    | 713   | 0.087  |
 | maxTorq    |1802  | 33    | 13    | 20    | 129   | 0.072  |
 | bank8FM    | 4499 | 9     | 0     | 9     | 288   | 0.064  |
-! ConcrStr   | 1030 | 8     | 0     | 8     | 55    | 0.053  |
+| ConcrStr   | 1030 | 8     | 0     | 8     | 55    | 0.053  |
 | Accel      | 1732 | 15    | 3     | 12    | 89    | 0.051  |
 | airfoild   | 1503 | 5     | 0     | 5     | 62    | 0.041  |
 
+where,
+
+N represents the total number of cases;
+
+tpred represents the number of predictors;
+
+p.nom representd the number of nominal predictors;
+
+p.num represents the number of numeric predictors;
+
+nRare represents the number of cases with $\phi(y) > 0.8$; and
+
+% $Rare=\frac{nRare}{N}$.
 
