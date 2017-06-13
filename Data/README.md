@@ -45,7 +45,7 @@ p.nom representd the number of nominal predictors;
 
 p.num represents the number of numeric predictors;
 
-nRare represents the number of cases with $\phi(y) > 0.8$; and
+nRare represents the number of cases with target variable relevance above 0.8; and
 
-% $Rare=\frac{nRare}{N}$.
+% Rare=nRare/N.
 
