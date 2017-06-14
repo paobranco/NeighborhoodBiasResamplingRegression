@@ -1,11 +1,11 @@
-# Tables with results from the experiments conducted#
+# Tables with results from the experiments conducted
 
 
-## Best Median Results by Learner Variant ##
+## Best Median Results by Learner Variant
 The following tables show the best median results obtained by each learner in all the variants considered. We present the results for the SVM, MARS and Random Forest learners used in the experiments. The acronyms used for the pre-processing strategies are described in the paper.
 
 ### SVM ###
-| Data Sets        | none  | RU    | FF    | FT    | SMT   | RN    | RNF   | RFN   | RFNF  |   |
+| Data Sets        | none  | U.\_.\_ | U.S._ | U.F._ | S.\_.\_ | S.S.S | S.F.S | S.S.F | S.F.F |   |
 |------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|---|
 | a1               | 0.521 | 0.778 | 0.769 | 0.769 | 0.734 | 0.719 | 0.725 | 0.741 | 0.727 |   |
 | a2               | 0     | 0.264 | 0.265 | 0.211 | 0.264 | 0.247 | 0.238 | 0.264 | 0.283 |   |
@@ -26,9 +26,9 @@ The following tables show the best median results obtained by each learner in al
 | airfoild         | 0.197 | 0.254 | 0.253 | 0.233 | 0.247 | 0.276 | 0.287 | 0.255 | 0.253 |   |
 | concreteStrength | 0.913 | 0.891 | 0.896 | 0.897 | 0.927 | 0.926 | 0.926 | 0.923 | 0.928 |   |
 
-### MARS ###
 
-| data sets        | none  | RU    | FF    | FT    | SMT   | RN    | RNF   | RFN   | RFNF  |   |
+### MARS ###
+| Data Sets        | none  | U.\_.\_ | U.S._ | U.F._ | S.\_.\_ | S.S.S | S.F.S | S.S.F | S.F.F |   |
 |------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|---|
 | a1               | 0.589 | 0.759 | 0.746 | 0.718 | 0.774 | 0.762 | 0.769 | 0.723 | 0.741 |   |
 | a2               | 0     | 0.237 | 0.221 | 0.261 | 0.225 | 0.215 | 0.235 | 0.26  | 0.223 |   |
@@ -50,7 +50,7 @@ The following tables show the best median results obtained by each learner in al
 | concreteStrength | 0.9   | 0.882 | 0.892 | 0.884 | 0.889 | 0.896 | 0.9   | 0.914 | 0.911 |   |
 
 ### Random Forest ###
-| data sets        | none  | RU    | FF    | FT    | SMT   | RN    | RNF   | RFN   | RFNF  |   |
+| Data Sets        | none  | U.\_.\_ | U.S._ | U.F._ | S.\_.\_| S.S.S | S.F.S | S.S.F | S.F.F |   |
 |------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|---|
 | a1               | 0.647 | 0.753 | 0.723 | 0.711 | 0.768 | 0.73  | 0.735 | 0.745 | 0.743 |   |
 | a2               | 0     | 0.287 | 0.278 | 0.27  | 0.23  | 0.241 | 0.222 | 0.242 | 0.229 |   |
